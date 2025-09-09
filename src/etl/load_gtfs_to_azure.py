@@ -13,7 +13,7 @@ GTFS_DIR = "data/gtfs/london_operators"
 server = 'firstbusdata.database.windows.net'
 database = 'firstbus_db'
 username = 'adminuser'
-password = os.environ.get("AZURE_SQL_PASSWORD")  # <-- get password from environment
+password = os.environ.get("AZURE_SQL_PASSWORD")  # <-- get password from py environment
 driver = '{ODBC Driver 18 for SQL Server}'
 
 if not password:
