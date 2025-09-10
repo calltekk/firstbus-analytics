@@ -7,5 +7,5 @@ __pycache__/
 *.bak
 *.mdf
 *.ldf
-vscode/
+.vscode
 .Rapp.history
