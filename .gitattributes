@@ -1,0 +1,2 @@
+data/gtfs/london_operators/split_stop_times/* filter=lfs diff=lfs merge=lfs -text
+data/gtfs/london_operators/filtered/**/*.txt filter=lfs diff=lfs merge=lfs -text
